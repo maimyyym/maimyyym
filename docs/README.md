@@ -1,9 +1,10 @@
 # maimyyym works
 ## personal data
-
-- Name    : 宮崎 真衣 (Mai Miyazaki)
-- Birth   : 1997.02.09
-- Live in : 福岡
+| item    | content                  |  
+| ------- | ------------------------ |   
+| Name    | 宮崎 真衣 (Mai Miyazaki) |    
+| Birth   | 1997.02.09               |   
+| Live in | 福岡                     |   
 
 ### Other Info.
 - 1型糖尿病（3歳〜）
