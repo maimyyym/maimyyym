@@ -1,10 +1,11 @@
 # maimyyym works
 ## personal data
-| item    | content                  |
-| ------- | ------------------------ |
-| Name    | 宮崎 真衣 (Mai Miyazaki) |
-| Birth   | 1997.02.09               |
-| Live in | 福岡                     |
+
+| item    | content                  |  
+| ------- | ------------------------ |   
+| Name    | 宮崎 真衣 (Mai Miyazaki) |    
+| Birth   | 1997.02.09               |   
+| Live in | 福岡                     |   
 
 ### Other Info.
 - 1型糖尿病（3歳〜）
@@ -62,7 +63,7 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 coming soon
 
 ### Certification
-https://www.credly.com/users/mai-miyazaki.5bd0582a
+[Credly](https://www.credly.com/users/mai-miyazaki.5bd0582a)
 
 - AWS Certified Cloud Practitioner
 - AWS Certified AI Practitioner
