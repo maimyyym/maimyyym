@@ -36,7 +36,7 @@
   - 株式会社Fusicに入社。Python, TypeScript, PHPを用いたWebシステム・API開発やAWSインフラ設計構築。
 
 ## my thinking & policy
-### interested in
+### Interested in / Future
 #### AWS
 AWSの"building block", "builder"という考え方が好きです。  
 AWSサービスを用いたソリューションの設計構築を今後も自身のスキルとして強化したいと考えています。
@@ -59,10 +59,105 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 ブログや登壇などパブリックに向けた発信活動を好んで行なっています。  
 日頃の業務で学ぶ技術をアウトプットすることで自身の定着になり、また誰かの手助けにもなり、そして何より自分のスキルアップが次の業務につながります。その循環を大切にしています。
 
-### 職務経歴 - 詳細
-coming soon
+## my work logs
+職務経歴の詳細です。
+### API開発
+#### 概要
+数十万規模のデータをリアルタイムに保存・管理・提供するサーバーレスAPIの開発
 
-### Certification
+#### 期間
+2024年6月〜現在
+
+#### 役割
+2024年6-9月：メインデベロッパー
+2024年10月-：PM 兼 デベロッパー
+
+#### 技術スタック
+AWS(Amazon OpenSearch Service, AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Kinesis Data Streams, Amazon S3, Amazon SQS)
+AWS SAM, Terraform
+Python3.12
+
+#### 内容
+- BeautifulSoupを利用したスクレイピング、m3u8ファイルの処理等
+- OpenSearchクエリ設計・実装
+- Lambdaアプリケーションベース構築
+- 2〜3人 × 1年超計画 規模をリード・進捗管理等
+
+### 規制要件を踏まえたシステムのAWS基本設計書作成・調査
+#### 概要
+業界特有の規制があるプロジェクトのAWS設計支援
+
+#### 期間
+2024年8-11月
+
+#### 役割
+メンバー
+
+#### 技術スタック
+AWS
+
+#### 内容
+- 基本設計書作成・技術調査（セキュリティ項目）
+- ランディングゾーン技術調査
+
+### メッセージ配信管理システムのインフラ構築
+#### 概要
+複数システムから顧客へ配信するメッセージデータ管理・配信機構の構築
+
+#### 期間
+2024年7-10月
+
+#### 役割
+インフラ構築担当
+
+#### 技術スタック
+AWS(ALB, ECS on Fargate, Aurora, RDS Proxy, SQS, Lambda,　EventBridge, SES, SNS, Chatbot, CodePipeline, CodeBuild, CodeDeploy, EC2, NAT Gateway, Amazon Inspector, SecurityHub, AWS WAF)
+Terraform
+
+#### 内容
+- LaravelアプリケーションサーバーとしてFargateを採用。
+- 複数のバッチ機構にはEventBridgeScheduler, SQS, Lambdaを構築
+- デプロイ機構としてCodePipeline
+- セキュリティ検知のためInspector, SecurityHubの導入。
+- WAF構築
+
+### サーバーレスAPI(Lambda) JavaScript -> TypeScriptリプレイス
+#### 概要
+CMSバックエンドAPIの機能追加およびリプレイス
+
+#### 期間
+2024年4-6月
+
+#### 役割
+デベロッパー
+
+#### 技術スタック
+AWS(Lambda, API Gateway, S3, DynamoDB)
+AWS SAM
+TypeScript, Node.js
+
+#### 内容
+- JavaScriptで書かれた27種の既存APIをTypeScriptにリプレイス
+- 伴ってSDK for JavaScript v2をv3に移行
+
+### Webシステム開発(Laravel)
+#### 概要
+BtoBtoCのWebアプリケーション開発・初期フェーズ
+
+#### 期間
+2024年1-3月
+
+#### 役割
+デベロッパー
+
+#### 技術スタック
+Laravel, Docker
+
+#### 内容
+- MinIOを用いたローカルでのS3環境構築(Docker)
+- Laravelを用いたWebアプリケーション機能開発およびBladeテンプレートを用いた画面実装
+
+## Certification
 [Credly](https://www.credly.com/users/mai-miyazaki.5bd0582a)
 
 - AWS Certified Cloud Practitioner
