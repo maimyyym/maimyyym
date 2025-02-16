@@ -69,13 +69,13 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 2024年6月〜現在
 
 #### 役割
-2024年6-9月：メインデベロッパー
+2024年6-9月：メインデベロッパー  
 2024年10月-：PM 兼 デベロッパー
 
 #### 技術スタック
-AWS(Amazon OpenSearch Service, AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Kinesis Data Streams, Amazon S3, Amazon SQS)
-AWS SAM, Terraform
-Python3.12
+AWS(Amazon OpenSearch Service, AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Kinesis Data Streams, Amazon S3, Amazon SQS)   
+AWS SAM, Terraform  
+Python3.12  
 
 #### 内容
 - BeautifulSoupを利用したスクレイピング、m3u8ファイルの処理等
@@ -111,7 +111,7 @@ AWS
 インフラ構築担当
 
 #### 技術スタック
-AWS(ALB, ECS on Fargate, Aurora, RDS Proxy, SQS, Lambda,　EventBridge, SES, SNS, Chatbot, CodePipeline, CodeBuild, CodeDeploy, EC2, NAT Gateway, Amazon Inspector, SecurityHub, AWS WAF)
+AWS(ALB, ECS on Fargate, Aurora, RDS Proxy, SQS, Lambda,　EventBridge, SES, SNS, Chatbot, CodePipeline, CodeBuild, CodeDeploy, EC2, NAT Gateway, Amazon Inspector, SecurityHub, AWS WAF)   
 Terraform
 
 #### 内容
@@ -132,12 +132,13 @@ CMSバックエンドAPIの機能追加およびリプレイス
 デベロッパー
 
 #### 技術スタック
-AWS(Lambda, API Gateway, S3, DynamoDB)
-AWS SAM
+AWS(Lambda, API Gateway, S3, DynamoDB)   
+AWS SAM  
 TypeScript, Node.js
 
+
 #### 内容
-- JavaScriptで書かれた27種の既存APIをTypeScriptにリプレイス
+- JavaScriptで書かれた27種の既存APIをTypeScriptにリプレイス  
 - 伴ってSDK for JavaScript v2をv3に移行
 
 ### Webシステム開発(Laravel)
@@ -156,6 +157,34 @@ Laravel, Docker
 #### 内容
 - MinIOを用いたローカルでのS3環境構築(Docker)
 - Laravelを用いたWebアプリケーション機能開発およびBladeテンプレートを用いた画面実装
+
+### オンラインスクール会員向けポータルサイトリニューアル（業務委託契約）
+#### 概要  
+既存Webシステム（ポータルサイト）のデザイン・一部機能のリニューアル  
+バックエンドにGo, フロントエンドにNext.jsのSSR構成 + GraphQL / インフラにはGoogle Cloud
+
+#### 期間
+2023年4-8月
+
+#### 役割
+デベロッパー
+
+#### 技術スタック
+Next.js(TypeScript)   
+TailwindCSS
+
+#### 内容
+- デザイナーと連携し、デザインを元にWebページを実装
+
+### 技術記事の執筆（記事単位での報酬制）
+#### 概要
+[エンベーダー](https://envader.plus/article)の技術記事執筆
+
+#### 期間
+2023年1-4月
+
+#### 内容
+- SQL, データベース関連等
 
 ## Certification
 [Credly](https://www.credly.com/users/mai-miyazaki.5bd0582a)
