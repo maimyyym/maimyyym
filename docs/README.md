@@ -15,11 +15,13 @@
 - [X](https://x.com/maimyyym)
 - [Facebook](https://www.facebook.com/profile.php?id=61557484814842)
 - [GitHub](https://github.com/maimyyym)
-- [note](https://note.com/myfy_29)
+- [note](https://note.com/myfy_29) ※更新停止中
 - [Zenn](https://zenn.dev/mai_mizz)
 - [SpeakerDeck](https://speakerdeck.com/maimyyym)
 
 ### Contacts
+メールまたはXのDMが連絡取りやすいです。
+
 - Gmail: m.711029 * gmail.com
 
 ## my loads
@@ -33,7 +35,9 @@
 - 2023年3月〜8月
   - 業務委託契約で技術記事の執筆およびNext.jsを用いたフロントエンド開発。
 - 2023年10月〜現在
-  - 株式会社Fusicに入社。Python, TypeScript, PHPを用いたWebシステム・API開発やAWSインフラ設計構築。
+  - 株式会社Fusic
+    - チームリーダー/エンジニア
+    - AWSインフラ設計構築やPython, TypeScript, PHPを用いたWebシステム・API開発に従事。
 
 ## my thinking & policy
 ### Interested in / Future
@@ -48,6 +52,7 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 #### クライアントワーク
 接客業に携わっていた経験や人々のQOL向上に携わりたいという仕事の軸にも深くマッチするクライアントワークという仕事が好きです。  
 さまざまな方と会話し、協働し、私のスキルを提供できればと考えています。
+クライアント様の課題解決・ソリューション提供のために働くことが好きです。
 
 ### motivation / policy
 #### 穏和と速さ
@@ -63,7 +68,8 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 職務経歴の詳細です。
 ### 大規模データのOpenSearch連携・API開発
 #### 概要
-数十万規模のデータをリアルタイムに保存・管理・提供するサーバーレスAPIの開発
+高度な信頼性・堅牢性が求められる大規模プロジェクトのプロジェクトマネジメント
+数十万規模のデータをリアルタイムに保存・管理・提供するサーバーレスAPIの構築
 
 #### 期間
 2024年6月〜現在
@@ -75,13 +81,14 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 #### 技術スタック
 AWS(Amazon OpenSearch Service, AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Kinesis Data Streams, Amazon S3, Amazon SQS)   
 AWS SAM, Terraform  
-Python3.12  
+Python3
 
 #### 内容
-- BeautifulSoupを利用したスクレイピング、m3u8ファイルの処理等
-- OpenSearchクエリ設計・実装
-- Lambdaアプリケーションベース構築
 - 2〜3人 × 1年超計画 規模をリード・進捗管理等
+- Lambdaアプリケーションベース構築
+- OpenSearchクエリ設計・実装
+- AWSインフラのパフォーマンスチューニング、セキュリティ対策
+- BeautifulSoupを利用したスクレイピング、m3u8ファイル等のデータ処理
 
 ### 規制要件を踏まえたシステムのAWS基本設計書作成・調査
 #### 概要
@@ -157,6 +164,19 @@ Laravel, Docker
 #### 内容
 - MinIOを用いたローカルでのS3環境構築(Docker)
 - Laravelを用いたWebアプリケーション機能開発およびBladeテンプレートを用いた画面実装
+
+### AWSインフラの保守/構築（業務委託契約）
+### 概要
+Terraformを用いたAWSインフラの保守業務
+
+### 期間
+2025年3月〜現在
+
+### 役割
+デベロッパー
+
+### 技術スタック
+AWS全般/Terraform
 
 ### オンラインスクール会員向けポータルサイトリニューアル（業務委託契約）
 #### 概要  
