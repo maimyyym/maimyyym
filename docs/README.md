@@ -10,6 +10,7 @@
 ### Other Info.
 - 1型糖尿病（3歳〜）
 - AWS re:Invent 2024 **A**ll**B**uilder**W**elcome**G**rant採択
+- AWS Community Builder (Security)
 
 ### Account
 - [X](https://x.com/maimyyym)
