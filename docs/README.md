@@ -9,8 +9,9 @@
 
 ### Other Info.
 - 1型糖尿病（3歳〜）
-- AWS re:Invent 2024 **A**ll**B**uilder**W**elcome**G**rant採択
 - AWS Community Builder (Security)
+- 2025 Japan All AWS Certifications Engineers 
+- AWS re:Invent 2024 **A**ll**B**uilder**W**elcome**G**rant採択
 
 ### Account
 - [X](https://x.com/maimyyym)
@@ -19,6 +20,7 @@
 - [note](https://note.com/myfy_29) ※更新停止中
 - [Zenn](https://zenn.dev/mai_mizz)
 - [SpeakerDeck](https://speakerdeck.com/maimyyym)
+- [Wantedly](https://www.wantedly.com/id/maimyyym)
 
 ### Contacts
 メールまたはXのDMが連絡取りやすいです。
@@ -69,8 +71,9 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 職務経歴の詳細です。
 ### 大規模データのOpenSearch連携・API開発
 #### 概要
-高度な信頼性・堅牢性が求められる大規模プロジェクトのプロジェクトマネジメント
-数十万規模のデータをリアルタイムに保存・管理・提供するサーバーレスAPIの構築
+高度な信頼性・堅牢性が求められる大規模案件のプロジェクトマネジメント  
+マルチベンダーが関与する長期間に渡るプロジェクトにおいて中核となるAPIをAWSサーバーレスサービスを中心に構築。  
+数十万規模のデータをリアルタイムに保存・管理・提供。  
 
 #### 期間
 2024年6月〜現在
@@ -80,16 +83,18 @@ AWSサービスを用いたソリューションの設計構築を今後も自�
 2024年10月-：PM 兼 デベロッパー
 
 #### 技術スタック
+Python3  
 AWS(Amazon OpenSearch Service, AWS Lambda, Amazon API Gateway, Amazon DynamoDB, Amazon Kinesis Data Streams, Amazon S3, Amazon SQS)   
 AWS SAM, Terraform  
-Python3
+GitHub Actions  
+Splunk
 
 #### 内容
-- 2〜3人 × 1年超計画 規模をリード・進捗管理等
-- Lambdaアプリケーションベース構築
-- OpenSearchクエリ設計・実装
-- AWSインフラのパフォーマンスチューニング、セキュリティ対策
-- BeautifulSoupを利用したスクレイピング、m3u8ファイル等のデータ処理
+- 担当チームは2〜3人 × 1年超計画 規模をリード・進捗管理等
+- Lambdaを用いたプリケーションベースの構築
+- OpenSearch クエリ設計・実装
+- AWSインフラのパフォーマンスチューニング、多層防御・ベストプラクティスに則ったセキュリティ対策
+- GitHub ActionsとSAM CLI, AWSサービスの特性を活かしたCI/CDパイプラインの構築
 
 ### 規制要件を踏まえたシステムのAWS基本設計書作成・調査
 #### 概要
@@ -102,7 +107,7 @@ Python3
 メンバー
 
 #### 技術スタック
-AWS
+AWS(IAM, Oraganizations, Config, KMS等)
 
 #### 内容
 - 基本設計書作成・技術調査（セキュリティ項目）
@@ -116,18 +121,18 @@ AWS
 2024年7-10月
 
 #### 役割
-インフラ構築担当
+インフラ構築〜運用
 
 #### 技術スタック
-AWS(ALB, ECS on Fargate, Aurora, RDS Proxy, SQS, Lambda,　EventBridge, SES, SNS, Chatbot, CodePipeline, CodeBuild, CodeDeploy, EC2, NAT Gateway, Amazon Inspector, SecurityHub, AWS WAF)   
+AWS(ALB, ECS on Fargate, Aurora, RDS Proxy, SQS, Lambda,　EventBridge, SES, SNS, Amazon Q Developer(Chatbot), CodePipeline, CodeBuild, CodeDeploy, EC2, NAT Gateway, Amazon Inspector, SecurityHub, AWS WAF, VPC Peering)   
 Terraform
 
 #### 内容
-- LaravelアプリケーションサーバーとしてFargateを採用。
-- 複数のバッチ機構にはEventBridgeScheduler, SQS, Lambdaを構築
-- デプロイ機構としてCodePipeline
-- セキュリティ検知のためInspector, SecurityHubの導入。
-- WAF構築
+- Laravelアプリケーションサーバーとして ECS (Fargate) を採用し、コンテナ基盤を構築
+- メッセージ配信を管理するバッチ機構としてEventBridgeScheduler, SQS, Lambdaを組み合わせたイベント駆動アーキテクチャを構築
+- CodePipelineを用いたデプロイ機構の構築・運用
+- Inspector によるコンテナイメージの脆弱性診断, Security Hub CSPMを用いたセキュリティ状態の一元管理と検知・Slack通知の実装・運用
+- AWS WAFの導入設計・コスト試算・運用
 
 ### サーバーレスAPI(Lambda) JavaScript -> TypeScriptリプレイス
 #### 概要
@@ -144,9 +149,8 @@ AWS(Lambda, API Gateway, S3, DynamoDB)
 AWS SAM  
 TypeScript, Node.js
 
-
 #### 内容
-- JavaScriptで書かれた27種の既存APIをTypeScriptにリプレイス  
+- JavaScriptで書かれた27種の既存APIをTypeScriptにリプレイス(Node.js16 => 20)
 - 伴ってSDK for JavaScript v2をv3に移行
 
 ### Webシステム開発(Laravel)
@@ -168,7 +172,7 @@ Laravel, Docker
 
 ### AWSインフラの保守/構築（業務委託契約）
 ### 概要
-Terraformを用いたAWSインフラの保守業務
+Terraformを用いたAWSインフラの保守・構築業務
 
 ### 期間
 2025年3月〜現在
@@ -179,7 +183,7 @@ Terraformを用いたAWSインフラの保守業務
 ### 技術スタック
 AWS全般/Terraform
 
-### オンラインスクール会員向けポータルサイトリニューアル（業務委託契約）
+### オンラインスクール会員向けポータルサイトリニューアル（スタートアップ企業/業務委託契約）
 #### 概要  
 既存Webシステム（ポータルサイト）のデザイン・一部機能のリニューアル  
 バックエンドにGo, フロントエンドにNext.jsのSSR構成 + GraphQL / インフラにはGoogle Cloud
