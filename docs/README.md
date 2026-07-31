@@ -8,9 +8,10 @@
 | Live in | 福岡                     |
 
 ### Other Info.
-- 1型糖尿病（3歳〜）
 - AWS Community Builder (Security)
 - 2025 Japan All AWS Certifications Engineers 
+- 2026 Japan All AWS Certifications Engineers 
+- 2026 Japan AWS Top Engineers 
 - AWS re:Invent 2024 **A**ll**B**uilder**W**elcome**G**rant採択
 
 ### Account
@@ -45,6 +46,8 @@
 
 ## my work logs
 職務経歴の詳細です。
+last updated: 2025.08
+
 ### 大規模サーバーレスAPIプロジェクトのPM・開発
 #### 概要
 高度な信頼性・堅牢性が求められる大規模案件のプロジェクトマネジメント  
